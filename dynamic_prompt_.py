@@ -10,6 +10,7 @@ llm = HuggingFaceEndpoint(
     task="text-generation"
 )
 
+
 model = ChatHuggingFace(llm=llm)
 
 st.header('Reasearch Tool')
